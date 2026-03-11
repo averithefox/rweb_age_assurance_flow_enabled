@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "rweb_age_assurance_flow_enabled",
+  "version": "0.0.1",
+
+  "permissions": ["webRequest", "webRequestBlocking", "*://x.com/*"],
+
+  "background": { "scripts": ["background.js"] }
+}
