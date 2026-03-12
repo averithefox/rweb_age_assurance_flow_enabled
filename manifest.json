@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "rweb_age_assurance_flow_enabled",
-  "version": "0.0.3",
+  "name": "Twitter no ID verification",
+  "version": "0.0.1",
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "rweb_age_assurance_flow_enabled@averi.me",
+      "id": "twitter_no_id_verification@averi.me",
       "data_collection_permissions": {
         "required": ["none"]
       }
