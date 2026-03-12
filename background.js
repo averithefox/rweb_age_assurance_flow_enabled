@@ -79,7 +79,7 @@ browser.webRequest.onHeadersReceived.addListener(
   maybePatch,
   {
     urls: ["*://x.com/*"],
-    types: ["main_frame", "sub_frame"],
+    types: ["main_frame", "sub_frame", "xmlhttprequest"],
   },
   ["blocking", "responseHeaders"],
 );
